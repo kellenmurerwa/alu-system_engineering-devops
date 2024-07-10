@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#connecting to server without key
+
+Host *
+    PasswordAuthentication no
+    IdentityFile ~/.ssh/school
